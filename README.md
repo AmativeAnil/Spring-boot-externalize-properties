@@ -7,7 +7,7 @@ run the application by importing repo as spring boot application.
 
 the application.properties file in the main/resource folder is overridden by the file placed in current directory/config or current directory path.
 
-before running application copy the application.properties file in project current directory or current directory/config folder by modifying values of your own
+before running application check property file in config folder of this project, this application.properties file will override the property inside main/resource application.properies and somefile.properties files.
 
 run the application and git http:localhost:8080/greetings 
 
